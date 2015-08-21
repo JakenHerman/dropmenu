@@ -1,5 +1,5 @@
 /* Main Drop List Styles */
- .dropList-bullet {
+ .dropMenu-bullet {
     width:0;
     height:0;
     content:"";
@@ -12,7 +12,7 @@
 
 
 }
-.dropList-layout {
+.dropMenu-layout {
     width:auto;
     position:relative;
     display:inline-block;
@@ -20,7 +20,7 @@
 
 
 }
-.dropList-box {
+.dropMenu-box {
     position:relative;
     display:inline-block;
     float:right;
@@ -35,7 +35,7 @@
     -webkit-box-shadow:0px 0px 2px #ddd;
     box-shadow:0px 0px 2px #ddd;
 }
-.dropList {
+.dropMenu {
     display:inline-block;
 		margin-left: auto;
 		margin-right: auto;
@@ -51,7 +51,7 @@
     -webkit-box-shadow:0px 0px 2px #ddd;
     box-shadow:0px 0px 2px #ddd;
 }
-.dropList li {
+.dropMenu li {
     list-style:inside none;
     padding:0;
     margin:0;
@@ -60,7 +60,7 @@
 
 }
 
-.dropList li a {
+.dropMenu li a {
     display:block;
     outline:none;
     position:relative;
@@ -85,7 +85,7 @@
     -webkit-box-shadow:0px 0px 1px #fff inset;
     box-shadow:0px 0px 1px #fff inset;
 }
-.dropList li a:hover {
+.dropMenu li a:hover {
     background:#f5f5f5;
     background:-moz-linear-gradient(top, #eeeeee 0%, #f5f5f5 100%);
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #f5f5f5));
@@ -95,14 +95,14 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#f5f5f5', GradientType=0);
     background:linear-gradient(top, #eeeeee 0%, #f5f5f5 100%);
 }
-.dropList li ul {
+.dropMenu li ul {
     display:none;
     padding:0;
     margin:0;
     border-left:1px solid #ddd;
     border-right:1px solid #ddd;
 }
-.dropList li ul li a {
+.dropMenu li ul li a {
     padding:8px 10px;
     background:#fff;
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
@@ -111,18 +111,18 @@
     font-weight:normal;
     color:#777;
 }
-.dropList li ul li a:hover {
+.dropMenu li ul li a:hover {
     background:#f5f5f5;
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#f5f5f5', GradientType=0);
 }
-.dropList li a + ul li:first-child a {
+.dropMenu li a + ul li:first-child a {
     border-top:1px solid #ddd;
 }
-.dropList li a + ul li:last-child a {
+.dropMenu li a + ul li:last-child a {
     border-bottom:0 none;
 }
 /* White Color Scheme */
- .white .dropList-box {
+ .white .dropMenu-box {
     color:#555;
     border-color:#ddd;
     text-shadow:1px 1px 0px #fff;
@@ -138,7 +138,7 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
     background: linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
 }
-.white .dropList-box:hover {
+.white .dropMenu-box:hover {
     background:#f5f5f5;
     background:-moz-linear-gradient(top, #eeeeee 0%, #f5f5f5 100%);
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #f5f5f5));
@@ -149,7 +149,7 @@
     background:linear-gradient(top, #eeeeee 0%, #f5f5f5 100%);
 }
 /* Blue Color Scheme */
- .blue .dropList-box {
+ .blue .dropMenu-box {
     color:#fff;
     border-color:#09365f;
     text-shadow:1px 1px 0px #09365f;
@@ -165,7 +165,7 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b75b4', endColorstr='#064884', GradientType=0);
     background:linear-gradient(top, #3b75b4 0%, #064884 100%);
 }
-.blue .dropList-box:hover {
+.blue .dropMenu-box:hover {
     background:#3b75b4;
     background:-moz-linear-gradient(top, #064884 0%, #3b75b4 100%);
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #064884), color-stop(100%, #3b75b4));
@@ -176,7 +176,7 @@
     background:linear-gradient(top, #064884 0%, #3b75b4 100%);
 }
 /* Green Color Scheme */
- .green .dropList-box {
+ .green .dropMenu-box {
     color:#fff;
     text-shadow:1px 1px 0px #6b7735;
     border-color:#6b7735;
@@ -192,7 +192,7 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#93aa4c', endColorstr='#7d8f33', GradientType=0);
     background:linear-gradient(top, #93aa4c 0%, #7d8f33 100%);
 }
-.green .dropList-box:hover {
+.green .dropMenu-box:hover {
     background:#93aa4c;
     background:-moz-linear-gradient(top, #7d8f33 0%, #93aa4c 100%);
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #7d8f33), color-stop(100%, #93aa4c));
@@ -203,7 +203,7 @@
     background:linear-gradient(top, #7d8f33 0%, #93aa4c 100%);
 }
 /* Magenta Color Scheme */
- .magenta .dropList-box {
+ .magenta .dropMenu-box {
     color:#fff;
     text-shadow:1px 1px 0px #7e0238;
     border-color:#7e0238;
@@ -219,7 +219,7 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b42364', endColorstr='#90013f', GradientType=0);
     background:linear-gradient(top, #b42364 0%, #90013f 100%);
 }
-.magenta .dropList-box:hover {
+.magenta .dropMenu-box:hover {
     background:#93aa4c;
     background:-moz-linear-gradient(top, #90013f 0%, #b42364 100%);
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #90013f), color-stop(100%, #b42364));
@@ -230,7 +230,7 @@
     background:linear-gradient(top, #90013f 0%, #b42364 100%);
 }
 /* Orange Color Scheme */
- .orange .dropList-box {
+ .orange .dropMenu-box {
     color:#fff;
     text-shadow:1px 1px 0px #c04501;
     border-color:#c04501;
@@ -246,7 +246,7 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f86c1f', endColorstr='#d54d01', GradientType=0);
     background:linear-gradient(top, #f86c1f 0%, #d54d01 100%);
 }
-.orange .dropList-box:hover {
+.orange .dropMenu-box:hover {
     background:#f86c1f;
     background:-moz-linear-gradient(top, #d54d01 0%, #f86c1f 100%);
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #d54d01), color-stop(100%, #f86c1f));
@@ -257,7 +257,7 @@
     background:linear-gradient(top, #d54d01 0%, #f86c1f 100%);
 }
 /* Black Color Scheme */
- .black .dropList-box {
+ .black .dropMenu-box {
     color:#fff;
     text-shadow:1px 1px 0px #222;
     border-color:#222;
@@ -273,7 +273,7 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#555555', endColorstr='#333333', GradientType=0);
     background:linear-gradient(top, #555555 0%, #333333 100%);
 }
-.black .dropList-box:hover {
+.black .dropMenu-box:hover {
     background:#555555;
     background:-moz-linear-gradient(top, #333333 0%, #555555 100%);
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #555555));
@@ -283,4 +283,3 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#555555', GradientType=0);
     background:linear-gradient(top, #333333 0%, #555555 100%);
 }
-
