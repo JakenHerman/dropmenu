@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="dropmenu.css" rel="stylesheet" type="text/css">
+<script src="dropmenu.js" type="text/javascript"></script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
+ <title>DropMenu Demo</title>
+    
+      <script type="text/javascript">
+    $(document).ready(function() {
+
+                $("#myLinks").dropMenu({
+
+                    style: "orange",
+                    width: 200,
+                    target: "self",
+                    speed: 500,
+
+                });
+            });
+    </script>
+    
+</head>
+
+<body>
+<div class="menu">
+            <ul class="dropMenu" id="myLinks">
+                <li>
+                    <a href="http://www.shsu.edu/jch053">Link 1</a>
+                </li>
+
+                <li>
+                    <a href='#'>Dropdown Menu</a>
+
+                    <ul>
+                        <li>
+                            <a href="http://www.shsu.edu/jch053">Another Link</a>
+                        </li>
+
+                        <li>
+                            <a href="http://www.shsu.edu/jch053">Another Link</a>
+                        </li>
+
+                        <li>
+                            <a href="http://www.shsu.edu/jch053">Another Link</a>
+                        </li>
+                    </ul></a>
+                </li>
+                
+                
+
+                <li>
+                    <a href="http://www.shsu.edu/jch053">Link 2</a>
+                </li>
+
+                 <li>
+                    <a href="mailto:jakenherman7@gmail.com">Email Me</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
